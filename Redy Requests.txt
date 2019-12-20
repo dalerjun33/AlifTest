@@ -1,0 +1,6 @@
+1) Addition => http://127.0.0.1:8887/Add?AuthorName=daler&AuthorSurname=azizov&DateOfbirth=3&Quote=4&Category=drama3213
+2) ReturnAll => http://127.0.0.1:8887/ReturnAllQuotes
+3) Delete => http://127.0.0.1:8887/DeleteQuoteById?Id=4 <!-- Using Quote Id -->
+4) Change Quote => http://127.0.0.1:8887/ChangeAuthorName=petushara&AuthorSurname=dasdassa&DateOfbirth=3&Quote=4&Category=drama&Id=2
+5) GetAllQuotesByCategory =>http://127.0.0.1:8887/GetAllQuotesByCategory?Category=drama
+6) Return Random => http://127.0.0.1:8887/ReturnRandomQuotes
